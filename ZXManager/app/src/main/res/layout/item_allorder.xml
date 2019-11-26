@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/list_background_shape">
+
+    <TextView
+        android:id="@+id/all_order_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_size_trhee"
+        android:text="订单编号："
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/all_order_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_size_trhee"
+        android:text="BF12145454"
+        app:layout_constraintBottom_toBottomOf="@+id/all_order_text"
+        app:layout_constraintStart_toEndOf="@+id/all_order_text"
+        app:layout_constraintTop_toTopOf="@+id/all_order_text" />
+
+    <TextView
+        android:id="@+id/fabu_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_black"
+        android:text="发布时间："
+        android:textSize="@dimen/text_size_trhee"
+        app:layout_constraintEnd_toStartOf="@id/fabu_time"
+        app:layout_constraintBottom_toBottomOf="@+id/all_order_text"
+        app:layout_constraintTop_toTopOf="@+id/all_order_text" />
+
+    <TextView
+        android:id="@+id/fabu_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:text="2019.03.13-15:00"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_size_trhee"
+        app:layout_constraintBottom_toBottomOf="@+id/fabu_time_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fabu_time_text"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/start_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="15dp"
+        android:text="湖南 长沙"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/text_bt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/all_order_text" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/jiantou"
+        app:layout_constraintBottom_toBottomOf="@+id/start_area"
+        app:layout_constraintEnd_toStartOf="@+id/end_area"
+        app:layout_constraintStart_toEndOf="@+id/start_area"
+        app:layout_constraintTop_toTopOf="@+id/start_area" />
+
+    <TextView
+        android:id="@+id/end_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="72dp"
+        android:text="广东 深圳"
+        android:textColor="@color/text_color_black"
+        android:textSize="@dimen/text_bt"
+        app:layout_constraintBottom_toBottomOf="@+id/start_area"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/start_area" />
+
+    <TextView
+        android:id="@+id/order_goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_black"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="@dimen/text_size_trhee"
+        android:text="水果等货物/50吨"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start_area" />
+
+    <TextView
+        android:id="@+id/fahuo_time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_black"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="@dimen/text_size_trhee"
+        android:text="发货时间："
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order_goods" />
+
+    <TextView
+        android:id="@+id/fahuo_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_size_trhee"
+        android:text="2019.03.13-15:00"
+        app:layout_constraintBottom_toBottomOf="@+id/fahuo_time_text"
+        app:layout_constraintStart_toEndOf="@+id/fahuo_time_text"
+        app:layout_constraintTop_toTopOf="@+id/fahuo_time_text" />
+
+    <TextView
+        android:id="@+id/baojia_sum_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:textSize="@dimen/text_size_trhee"
+        android:textColor="@color/text_bule"
+        android:text="136人已经报价"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fahuo_time" />
+
+    <TextView
+        android:id="@+id/order_offer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="报价："
+        android:textColor="@color/text_bule"
+        android:textSize="@dimen/text_size_trhee"
+        app:layout_constraintTop_toTopOf="@id/baojia_sum_text"
+        app:layout_constraintBottom_toBottomOf="@id/baojia_sum_text"
+        app:layout_constraintEnd_toStartOf="@id/order_offer"/>
+
+    <TextView
+        android:id="@+id/order_offer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:text="1000元"
+        android:textColor="@color/text_bule"
+        android:textSize="@dimen/text_size_trhee"
+        app:layout_constraintBottom_toBottomOf="@+id/order_offer_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/order_offer_text" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">专线经理</string>
+    <string name="loading">加载中...</string>
+    <string name="close_string">关闭</string>
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。\n\n最后点击两次后退按钮，即可返回。</string>
+    <string name="quit">退出</string>
+    <string name="settings">设置</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="cancel">取消</string>
+
+    <string name="error_unkown">未知错误</string>
+    <string name="error_http">网络连接错误</string>
+    <string name="error_system">服务器出错</string>
+    <string name="error_account_freeze">账户被冻结，请联系管理员</string>
+    <string name="error_api_no_perission">调用了无权限的API接口</string>
+    <string name="error_login">用户名或者密码错误</string>
+    <string name="error_http_400">bad request</string>
+    <string name="error_http_404">服务器资源找不到</string>
+    <string name="error_http_500">服务器错误</string>
+    <string name="error_socket_timeout">网络超时</string>
+    <string name="error_socket_unreachable">网络不可用</string>
+    <string name="error_malformedJsonException">数据转换失败</string>
+    <string name="error_token">登录失效，请重新登录</string>
+    <string name="home">订单大厅</string>
+    <string name="order">运单管理</string>
+    <string name="mine">个人中心</string>
+
+    <string name="forger_pwd">若您忘记密码无法登录，进入账号密码登录页面，点击【忘记密码】，进入找回密码流程，系统会检测您的当前环境是否安全，若安全则可以直接重置密码；若当前环境不安全，则需要通过验证后方可重置密码。
+    </string>
+
+    <string name="cannot_code">进入短信验证码页面，等待60秒倒计时，点击【重新获取】入口，重新获取，如若还未收到，请联系客服协助解决。
+    </string>
+
+    <string name="untying_phone">目前载运保不支持用户自助操作解绑手机号，如需操作请联系在线客服或人工客服协助解决。
+    </string>
+
+    <string name="update_phone">如果您是未登录状态，您需要先登录载运保，登录成功之后，进入【我的】页面，点击【头像】进入【用户信息】页面，点击【手机号码】进入【更换手机号码】进行操作。
+    </string>
+
+    <string name="other_problem">其他情况。请直接联系客服协助解决问题。
+    </string>
+
+    <string name="updateLoginPaw">登录密码修改</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="inspect_update">检查更新</string>
+
+    <string name="update_pwd_hint">密码必须是8—16位的数字、字符组合</string>
+</resources>
